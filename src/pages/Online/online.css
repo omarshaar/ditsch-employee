@@ -1,0 +1,34 @@
+.onlineBtn{
+    width: 70vw;
+    height: 70vw;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.onlineBtn:hover{
+    opacity: 0.9;
+}
+
+
+.onlineBtn::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.activeOnBtn .onlineBtn::after{
+    border: 5px #fff dashed;
+    animation: borderAnimation 30s infinite linear;
+}
+
+
+@keyframes borderAnimation {
+    from { transform: rotate(0); }
+    to {  transform: rotate(360deg); }
+}

@@ -1,0 +1,12 @@
+.mainheaderContainer{
+    height: var(--headerh);
+}
+
+.mainheaderBody{
+    min-height: max-content !important;
+}
+
+.DrawerBody{
+    width: 65vw;
+    max-width: 400px;
+}

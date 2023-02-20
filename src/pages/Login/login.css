@@ -1,0 +1,23 @@
+.loginPageContainer{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.loginformContainer{
+    width: 500px;
+}
+
+.loginFormHeader{
+    background-color: var(--primary);
+}
+
+.prog{
+    color: #fff !important;
+}
+
+/* .Mui-focused{
+    color: var(--primary) !important;
+    border-color: var(--primary) !important; 
+    outline-color: var(--primary) !important;
+}
+ */

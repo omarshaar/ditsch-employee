@@ -1,0 +1,42 @@
+*{
+    user-select: none;
+}
+
+:root{
+    --primary: #a2271c;
+}
+
+:root{
+    --headerh: 60px
+}
+
+:root{
+    --primaryFont: 'Overpass', sans-serif;
+    --titleFont: 'Lobster', cursive;
+}
+
+p{
+    font-family: var(--primaryFont);
+}
+
+.btn{
+    background: var(--primary) !important;
+}
+
+.titlefont{
+    font-family: var(--titleFont);
+}
+
+.page{
+    max-width: 1200px;
+    min-height: calc(100vh - 60px);
+}
+
+.black-op7{
+    background-color: rgba(0, 0, 0, 0.68);
+}
+
+
+.cleanlist-item{
+    filter: drop-shadow(rgb(0 0 0 / 20%) 0 0 5px);
+}

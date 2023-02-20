@@ -1,0 +1,38 @@
+.homepageContaine{
+    background-color: rgb(247, 252, 255);
+}
+
+.homepagebody{
+    height: 100%;
+    margin: 0 auto;
+}
+
+.home-cards-body{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.homepage-card{
+    background: linear-gradient(300deg, rgba(162,39,28,1) 0%, rgba(205,56,106,1) 100%);
+}
+
+.task-card-container{
+    box-shadow: #ddd 0 0 10px;
+}
+
+.apps-home-cards-container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.task-head{
+    background: linear-gradient(10deg, rgba(162,39,28,1) 0%, rgba(205,56,106,1) 100%);
+}
+
+.app-home-card{
+    background: linear-gradient(145deg, rgba(162,39,28,1) 50%, #3d3f40 50%);
+}
+
+.added-item{
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+}
